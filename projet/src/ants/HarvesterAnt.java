@@ -15,10 +15,11 @@ public class HarvesterAnt extends Ant {
 	 */
 	public HarvesterAnt () {
 		super(1);
+		foodCost = 2;
 	}
 
 	@Override
 	public void action (AntColony colony) {
-		// TODO: Should produce one additional food for the colony
+		colony.increaseFood(1);
 	}
 }

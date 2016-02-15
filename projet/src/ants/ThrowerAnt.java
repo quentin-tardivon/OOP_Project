@@ -20,6 +20,7 @@ public class ThrowerAnt extends Ant {
 	public ThrowerAnt () {
 		super(1);
 		damage = 1;
+		foodCost = 4;
 	}
 
 	/**

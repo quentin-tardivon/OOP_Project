@@ -101,7 +101,7 @@ public class AntColony {
 	 */
 	public void increaseFood (int amount) {
 		food += amount;
-	}
+	};
 
 	/**
 	 * Returns if there are any bees in the queen's location (and so the game should be lost)
