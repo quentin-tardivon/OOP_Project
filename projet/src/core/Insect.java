@@ -27,6 +27,7 @@ public abstract class Insect {
 		this.place = place;
 	}
 
+
 	/**
 	 * Creates an Insect with the given armor. The insect's location is null
 	 *

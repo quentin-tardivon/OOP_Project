@@ -14,8 +14,8 @@ public class WallAnt extends Ant {
      */
 
     public WallAnt () {
-        super(4); //The armor value
-        foodCost = 4;
+        super(4,4); //The armor value
+
     }
 
     @Override

@@ -19,8 +19,8 @@ public class HungryAnt extends Ant {
      * Create a new HungryAnt
      */
     public HungryAnt () {
-        super(1);
-        foodCost = 4;
+        super(1,4);
+
     }
 
 

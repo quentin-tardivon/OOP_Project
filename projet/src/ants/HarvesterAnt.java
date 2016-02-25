@@ -14,8 +14,8 @@ public class HarvesterAnt extends Ant {
 	 * Creates a new Harvester Ant
 	 */
 	public HarvesterAnt () {
-		super(1);
-		foodCost = 2;
+		super(1,2);
+
 	}
 
 	@Override

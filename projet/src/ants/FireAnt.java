@@ -15,8 +15,7 @@ public class FireAnt extends Ant {
      * Create a FireAnt
      */
     public FireAnt () {
-        super(1);
-        foodCost = 4;
+        super(1,4);
         damage = 3;
     }
 

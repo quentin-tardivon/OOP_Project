@@ -20,6 +20,11 @@ public abstract class Ant extends Insect {
 		foodCost = 0;
 	}
 
+	public Ant (int armor, int foodCost) {
+		super(armor, null);
+		this.foodCost = foodCost;
+	}
+
 	/**
 	 * Returns the ant's food cost
 	 *
