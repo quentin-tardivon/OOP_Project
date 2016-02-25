@@ -2,6 +2,8 @@ package ants;
 
 import core.Ant;
 import core.AntColony;
+import core.Bee;
+import core.Place;
 
 /**
  * A Ant that fire the colony when whe die
@@ -25,21 +27,18 @@ public class FireAnt extends Ant {
         //Nothing
     }
 
-    /*
-     *
-     * @param amount
 
     @Override
     public void reduceArmor(int amount) {
-        super.reduceArmor();
-        Bee[] bees = place.getBees();
-        Bee[] targets = bees[this.getPlace()];
-        if (this.getArmor() <= 0 && targets!= null) {
-            for (int i = 0; i <= targets.length(); i++) {
+        Place antPlace = this.getPlace();
+        super.reduceArmor(amount);
+        if (this.getArmor() <= 0) {
+            Bee[] targets = antPlace.getBees();
+            for (int i = 0; i <= targets.length - 1; i++) {
                 targets[i].reduceArmor(damage);
             }
         }
     }
-*/
+
 
 }
