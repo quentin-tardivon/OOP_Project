@@ -10,6 +10,7 @@ public abstract class Insect {
 
 	protected int armor; // insect's current armor
 	protected Place place; // insect's current location
+	protected boolean watersafe = false;
 
 	/**
 	 * Creates a new Insect with the given armor in the given location
@@ -25,8 +26,17 @@ public abstract class Insect {
 		}
 		this.armor = armor;
 		this.place = place;
+		this.watersafe = false;
 	}
 
+	public Insect (int armor, Place place, boolean watersafe) {
+		if (armor <= 0) {
+			throw new IllegalArgumentException("Cannot create an insect with armor of 0");
+		}
+		this.armor = armor;
+		this.place = place;
+		this.watersafe = watersafe;
+	}
 
 	/**
 	 * Creates an Insect with the given armor. The insect's location is null
@@ -36,6 +46,7 @@ public abstract class Insect {
 	 */
 	public Insect (int armor) {
 		this(armor, null);
+		this.watersafe = false;
 	}
 
 	/**
@@ -96,5 +107,9 @@ public abstract class Insect {
 	@Override
 	public String toString () {
 		return this.getClass().getName() + "[" + armor + ", " + place + "]"; // supports inheritance!
+	}
+
+	public boolean getWatersafe () {
+		return this.watersafe;
 	}
 }

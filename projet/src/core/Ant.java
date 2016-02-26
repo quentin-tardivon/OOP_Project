@@ -8,6 +8,7 @@ package core;
 public abstract class Ant extends Insect {
 
 	protected int foodCost; // the amount of food needed to make this ant
+	protected boolean hidden = false;
 
 	/**
 	 * Creates a new Ant, with a food cost of 0.
@@ -24,6 +25,7 @@ public abstract class Ant extends Insect {
 		super(armor, null);
 		this.foodCost = foodCost;
 	}
+
 
 	/**
 	 * Returns the ant's food cost

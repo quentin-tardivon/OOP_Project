@@ -17,6 +17,7 @@ public class Bee extends Insect {
 	 */
 	public Bee (int armor) {
 		super(armor);
+		this.watersafe = true;
 	}
 
 	/**
@@ -51,7 +52,7 @@ public class Bee extends Insect {
 	 * @return if the bee can advance
 	 */
 	public boolean isBlocked () {
-		return place.getAnt() != null;
+		return place.getAnt() != null && !place.getAnt().hidden;
 	}
 
 	/**

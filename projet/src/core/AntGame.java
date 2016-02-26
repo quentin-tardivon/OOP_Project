@@ -51,7 +51,7 @@ public class AntGame extends JPanel implements ActionListener, MouseListener {
 	private static final String ANT_PKG = "ants";
 
 	// game clock & speed
-	public static final int FPS = 30; // target frames per second
+	public static final int FPS = 60; // target frames per second
 	public static final int TURN_SECONDS = 3; // seconds per turn
 	public static final double LEAF_SPEED = .3; // in seconds
 	private int turn; // current game turn
@@ -341,8 +341,14 @@ public class AntGame extends JPanel implements ActionListener, MouseListener {
 			Rectangle rect = entry.getKey(); // rectangle area for this place
 			Place place = entry.getValue(); // place to draw
 
+			if (place instanceof Water) {
+				g2d.setColor(Color.BLUE);
+				g2d.fill(rect);
+			}
+
 			g2d.setColor(Color.BLACK);
 			g2d.draw(rect); // border box (where to click)
+
 
 			if (place != tunnelEnd) {
 				g2d.drawImage(TUNNEL_IMAGE, rect.x, rect.y, null); // decorative image
