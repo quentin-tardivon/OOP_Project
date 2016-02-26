@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aef82079-a14b-4eac-927b-60d60c1e29fa" name="Default" comment="Création de Water, Scubaant et NinjaAnt">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projet/src/ants/NinjaAnt.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projet/src/ants/ScubaThrowerAnt.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projet/src/core/Water.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projet/ants/FireAnt.class" afterPath="$PROJECT_DIR$/out/production/projet/ants/FireAnt.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projet/ants/HarvesterAnt.class" afterPath="$PROJECT_DIR$/out/production/projet/ants/HarvesterAnt.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projet/ants/HungryAnt.class" afterPath="$PROJECT_DIR$/out/production/projet/ants/HungryAnt.class" />
@@ -20,14 +17,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projet/core/Insect.class" afterPath="$PROJECT_DIR$/out/production/projet/core/Insect.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projet/core/Place.class" afterPath="$PROJECT_DIR$/out/production/projet/core/Place.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projet/src/ants/ThrowerAnt.java" afterPath="$PROJECT_DIR$/projet/src/ants/ThrowerAnt.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projet/src/core/Ant.java" afterPath="$PROJECT_DIR$/projet/src/core/Ant.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projet/src/core/AntColony.java" afterPath="$PROJECT_DIR$/projet/src/core/AntColony.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projet/src/core/AntGame.java" afterPath="$PROJECT_DIR$/projet/src/core/AntGame.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projet/src/core/AntsVsSomeBees.java" afterPath="$PROJECT_DIR$/projet/src/core/AntsVsSomeBees.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projet/src/core/Bee.java" afterPath="$PROJECT_DIR$/projet/src/core/Bee.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projet/src/core/Insect.java" afterPath="$PROJECT_DIR$/projet/src/core/Insect.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projet/src/core/Place.java" afterPath="$PROJECT_DIR$/projet/src/core/Place.java" />
     </list>
     <ignored path="Ants_Bees.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,7 +63,7 @@
       <file leaf-file-name="AntGame.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/projet/src/core/AntGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33275563">
+            <state vertical-scroll-proportion="0.36988544">
               <caret line="303" column="4" selection-start-line="303" selection-start-column="4" selection-end-line="303" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -692,7 +681,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456394723765</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Création de Water, Scubaant et NinjaAnt">
+      <created>1456499779916</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1456499779916</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1201,7 +1196,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/projet/src/core/AntGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33275563">
+        <state vertical-scroll-proportion="0.36988544">
           <caret line="303" column="4" selection-start-line="303" selection-start-column="4" selection-end-line="303" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
