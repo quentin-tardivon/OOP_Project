@@ -128,7 +128,20 @@ public class Place {
 			if (this.ant == null && ant.getWatersafe()) {
 				this.ant = ant;
 				ant.setPlace(this);
-			} else {
+			}
+			else if (this.ant instanceof Containing){
+				if (!((Containing) this.ant).addContenantInsect(ant)) {
+					System.out.println("Already an ant in " + this); // report error
+				}
+				this.ant.setPlace(this);
+			}
+			else if (ant instanceof Containing) {
+				if(!((Containing) ant).addContenantInsect(this.ant)) {
+					System.out.println("Already an ant in " + this); // report error
+				}
+				ant.setPlace(this);
+			}
+			else {
 				System.out.println("Already an ant in " + this); // report error
 			}
 		}
@@ -136,7 +149,20 @@ public class Place {
 			if (this.ant == null) {
 				this.ant = ant;
 				ant.setPlace(this);
-			} else {
+			}
+			else if (this.ant instanceof Containing){
+				if (!((Containing) this.ant).addContenantInsect(ant)) {
+					System.out.println("Already an ant in " + this); // report error
+				}
+				this.ant.setPlace(this);
+			}
+			else if (ant instanceof Containing) {
+				if(!((Containing) ant).addContenantInsect(this.ant)) {
+					System.out.println("Already an ant in " + this); // report error
+				}
+				ant.setPlace(this);
+			}
+			else {
 				System.out.println("Already an ant in " + this); // report error
 			}
 		}
@@ -160,7 +186,15 @@ public class Place {
 	 *            The ant to remove from the place
 	 */
 	public void removeInsect (Ant ant) {
-		if (this.ant == ant) {
+		if (this.ant == ant && this.ant instanceof Containing) {
+			this.ant = ((Containing) this.ant).getContenantInsect();
+			ant.setPlace(null);
+		}
+		else if (this.ant instanceof Containing && ((Containing) this.ant).getContenantInsect() == ant) {
+			((Containing) this.ant).removeContenantInsect();
+			ant.setPlace(null);
+		}
+		else if (this.ant == ant) {
 			this.ant = null;
 			ant.setPlace(null);
 		}

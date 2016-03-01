@@ -39,7 +39,7 @@ public abstract class Ant extends Insect {
 	/**
 	 * Removes the ant from its current place
 	 */
-	@Override
+	//@Override
 	public void leavePlace () {
 		place.removeInsect(this);
 	}

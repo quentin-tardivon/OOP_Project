@@ -52,7 +52,12 @@ public class Bee extends Insect {
 	 * @return if the bee can advance
 	 */
 	public boolean isBlocked () {
-		return place.getAnt() != null && !place.getAnt().hidden;
+		try {
+			return !place.getAnt().hidden;
+		}
+		catch (NullPointerException exception) {
+				return false;
+		}
 	}
 
 	/**

@@ -34,6 +34,7 @@ public class FireAnt extends Ant {
         super.reduceArmor(amount);
         if (this.getArmor() <= 0) {
             Bee[] targets = antPlace.getBees();
+            System.out.println(targets);
             for (int i = 0; i <= targets.length - 1; i++) {
                 targets[i].reduceArmor(damage);
             }

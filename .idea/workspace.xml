@@ -2,21 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aef82079-a14b-4eac-927b-60d60c1e29fa" name="Default" comment="Création de Water, Scubaant et NinjaAnt">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projet/src/ants/BodyguardAnt.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projet/src/core/Containing.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projet/ants/FireAnt.class" afterPath="$PROJECT_DIR$/out/production/projet/ants/FireAnt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projet/ants/HarvesterAnt.class" afterPath="$PROJECT_DIR$/out/production/projet/ants/HarvesterAnt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projet/ants/HungryAnt.class" afterPath="$PROJECT_DIR$/out/production/projet/ants/HungryAnt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projet/ants/ThrowerAnt.class" afterPath="$PROJECT_DIR$/out/production/projet/ants/ThrowerAnt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projet/ants/WallAnt.class" afterPath="$PROJECT_DIR$/out/production/projet/ants/WallAnt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projet/core/Ant.class" afterPath="$PROJECT_DIR$/out/production/projet/core/Ant.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projet/core/AntColony.class" afterPath="$PROJECT_DIR$/out/production/projet/core/AntColony.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projet/core/AntGame$AnimPosition.class" afterPath="$PROJECT_DIR$/out/production/projet/core/AntGame$AnimPosition.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projet/core/AntGame$ImageUtils.class" afterPath="$PROJECT_DIR$/out/production/projet/core/AntGame$ImageUtils.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projet/core/AntGame.class" afterPath="$PROJECT_DIR$/out/production/projet/core/AntGame.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projet/core/AntsVsSomeBees.class" afterPath="$PROJECT_DIR$/out/production/projet/core/AntsVsSomeBees.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projet/core/Bee.class" afterPath="$PROJECT_DIR$/out/production/projet/core/Bee.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projet/core/Insect.class" afterPath="$PROJECT_DIR$/out/production/projet/core/Insect.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projet/core/Place.class" afterPath="$PROJECT_DIR$/out/production/projet/core/Place.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projet/src/ants/FireAnt.java" afterPath="$PROJECT_DIR$/projet/src/ants/FireAnt.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projet/src/core/Ant.java" afterPath="$PROJECT_DIR$/projet/src/core/Ant.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projet/src/core/AntColony.java" afterPath="$PROJECT_DIR$/projet/src/core/AntColony.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projet/src/core/AntGame.java" afterPath="$PROJECT_DIR$/projet/src/core/AntGame.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projet/src/core/Bee.java" afterPath="$PROJECT_DIR$/projet/src/core/Bee.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projet/src/core/Place.java" afterPath="$PROJECT_DIR$/projet/src/core/Place.java" />
     </list>
     <ignored path="Ants_Bees.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/projet/src/ants/FireAnt.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="39" selection-end-column="9" />
+              <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,19 +55,48 @@
         <entry file="file://$PROJECT_DIR$/projet/src/core/Ant.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AntGame.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AntGame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projet/src/core/AntGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36988544">
-              <caret line="303" column="4" selection-start-line="303" selection-start-column="4" selection-end-line="303" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="364" column="13" selection-start-line="364" selection-start-column="13" selection-end-line="364" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BodyguardAnt.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/projet/src/ants/BodyguardAnt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.27537796">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#863#864#0" expanded="true" />
+                <element signature="e#898#899#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AntColony.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projet/src/core/AntColony.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="168" column="36" selection-start-line="168" selection-start-column="36" selection-end-line="168" selection-end-column="36" />
+              <folding>
+                <element signature="e#5147#5148#0" expanded="true" />
+                <element signature="e#5220#5221#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,20 +106,8 @@
         <entry file="file://$PROJECT_DIR$/projet/src/core/Insect.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+              <caret line="89" column="25" selection-start-line="89" selection-start-column="25" selection-end-line="89" selection-end-column="25" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThrowerAnt.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projet/src/ants/ThrowerAnt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -98,11 +116,8 @@
         <entry file="file://$PROJECT_DIR$/projet/src/core/Place.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="134" column="14" selection-start-line="134" selection-start-column="14" selection-end-line="134" selection-end-column="14" />
-              <folding>
-                <element signature="e#4036#4037#0" expanded="true" />
-                <element signature="e#4054#4055#0" expanded="true" />
-              </folding>
+              <caret line="226" column="0" selection-start-line="226" selection-start-column="0" selection-end-line="226" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -111,7 +126,7 @@
         <entry file="file://$PROJECT_DIR$/projet/src/ants/NinjaAnt.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,17 +138,17 @@
         <entry file="file://$PROJECT_DIR$/projet/src/core/Bee.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="54" column="42" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
+              <caret line="58" column="29" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AntsVsSomeBees.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projet/src/core/AntsVsSomeBees.java">
+      <file leaf-file-name="Containing.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projet/src/core/Containing.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -172,18 +187,20 @@
         <option value="$PROJECT_DIR$/projet/src/ants/HungryAnt.java" />
         <option value="$PROJECT_DIR$/projet/src/ants/WallAnt.java" />
         <option value="$PROJECT_DIR$/projet/src/ants/HarvesterAnt.java" />
-        <option value="$PROJECT_DIR$/projet/src/ants/FireAnt.java" />
         <option value="$PROJECT_DIR$/projet/src/core/Water.java" />
-        <option value="$PROJECT_DIR$/projet/src/core/AntColony.java" />
-        <option value="$PROJECT_DIR$/projet/src/core/AntGame.java" />
         <option value="$PROJECT_DIR$/projet/src/core/Insect.java" />
-        <option value="$PROJECT_DIR$/projet/src/core/Place.java" />
         <option value="$PROJECT_DIR$/projet/src/ants/ThrowerAnt.java" />
         <option value="$PROJECT_DIR$/projet/src/ants/ScubaThrowerAnt.java" />
-        <option value="$PROJECT_DIR$/projet/src/core/Ant.java" />
         <option value="$PROJECT_DIR$/projet/src/ants/NinjaAnt.java" />
-        <option value="$PROJECT_DIR$/projet/src/core/Bee.java" />
         <option value="$PROJECT_DIR$/projet/src/core/AntsVsSomeBees.java" />
+        <option value="$PROJECT_DIR$/projet/src/ants/FireAnt.java" />
+        <option value="$PROJECT_DIR$/projet/src/core/Bee.java" />
+        <option value="$PROJECT_DIR$/projet/src/core/Place.java" />
+        <option value="$PROJECT_DIR$/projet/src/core/AntGame.java" />
+        <option value="$PROJECT_DIR$/projet/src/core/Ant.java" />
+        <option value="$PROJECT_DIR$/projet/src/core/AntColony.java" />
+        <option value="$PROJECT_DIR$/projet/src/ants/BodyguardAnt.java" />
+        <option value="$PROJECT_DIR$/projet/src/core/Containing.java" />
       </list>
     </option>
   </component>
@@ -217,6 +234,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -296,7 +314,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -696,15 +713,16 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32846716" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3274244" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3253389" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32221064" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17760417" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16458334" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -715,7 +733,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -770,25 +787,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/projet/src/core/Place.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="144" column="5" selection-start-line="141" selection-start-column="36" selection-end-line="144" selection-end-column="5" />
-          <folding>
-            <element signature="e#4036#4037#0" expanded="true" />
-            <element signature="e#4054#4055#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projet/src/core/Bee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="50" selection-start-line="58" selection-start-column="48" selection-end-line="58" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projet/src/core/AntColony.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -817,7 +815,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -833,7 +833,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -859,10 +861,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="144" column="5" selection-start-line="141" selection-start-column="36" selection-end-line="144" selection-end-column="5" />
-          <folding>
-            <element signature="e#4036#4037#0" expanded="true" />
-            <element signature="e#4054#4055#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -902,7 +901,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -928,10 +929,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="144" column="5" selection-start-line="141" selection-start-column="36" selection-end-line="144" selection-end-column="5" />
-          <folding>
-            <element signature="e#4036#4037#0" expanded="true" />
-            <element signature="e#4054#4055#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -971,7 +969,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1019,7 +1019,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1102,22 +1104,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projet/src/core/AntColony.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.7149837">
-          <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projet/src/core/Insect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projet/src/core/Water.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33224756">
@@ -1139,27 +1125,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projet/src/core/Place.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="134" column="14" selection-start-line="134" selection-start-column="14" selection-end-line="134" selection-end-column="14" />
-          <folding>
-            <element signature="e#4036#4037#0" expanded="true" />
-            <element signature="e#4054#4055#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projet/src/ants/FireAnt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="39" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projet/src/core/AntsVsSomeBees.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1168,38 +1133,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projet/src/core/Ant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projet/src/core/Bee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="42" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
+          <caret line="58" column="29" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projet/src/ants/NinjaAnt.java">
+    <entry file="file://$PROJECT_DIR$/projet/src/core/Insect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <caret line="89" column="25" selection-start-line="89" selection-start-column="25" selection-end-line="89" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projet/src/core/AntGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="364" column="13" selection-start-line="364" selection-start-column="13" selection-end-line="364" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projet/src/core/AntGame.java">
+    <entry file="file://$PROJECT_DIR$/projet/src/core/Place.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36988544">
-          <caret line="303" column="4" selection-start-line="303" selection-start-column="4" selection-end-line="303" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="226" column="0" selection-start-line="226" selection-start-column="0" selection-end-line="226" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projet/src/core/AntColony.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="168" column="36" selection-start-line="168" selection-start-column="36" selection-end-line="168" selection-end-column="36" />
+          <folding>
+            <element signature="e#5147#5148#0" expanded="true" />
+            <element signature="e#5220#5221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projet/src/ants/NinjaAnt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projet/src/ants/FireAnt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projet/src/core/Ant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projet/src/core/Containing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projet/src/ants/BodyguardAnt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27537796">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#863#864#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
           </folding>
         </state>
       </provider>
