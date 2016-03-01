@@ -7,7 +7,7 @@ public interface Containing {
 
     /**
      * Ajoute l'insecte à contenir
-     * @param insect à ajouter
+     * @param ant à ajouter
      * @return si l'insecte à bien été ajouté ou non
      */
     public boolean addContenantInsect(Ant ant);

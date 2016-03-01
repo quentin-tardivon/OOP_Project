@@ -15,7 +15,7 @@ public class BodyguardAnt extends Ant implements Containing  {
         super(2,5);
     }
 
-    public void action(Ant contain, AntColony colony) {
+    public void action(AntColony colony) {
         if (contain != null) {
             contain.action(colony);
         }

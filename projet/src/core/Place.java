@@ -124,49 +124,43 @@ public class Place {
 	 *            The ant to add to the place.
 	 */
 	public void addInsect (Ant ant) {
-		if (this instanceof Water) {
-			if (this.ant == null && ant.getWatersafe()) {
+		if (this.ant == null) {
+			if (this instanceof Water && ant.watersafe) {
 				this.ant = ant;
 				ant.setPlace(this);
 			}
-			else if (this.ant instanceof Containing){
-				if (!((Containing) this.ant).addContenantInsect(ant)) {
-					System.out.println("Already an ant in " + this); // report error
-				}
-				this.ant.setPlace(this);
-			}
-			else if (ant instanceof Containing) {
-				if(!((Containing) ant).addContenantInsect(this.ant)) {
-					System.out.println("Already an ant in " + this); // report error
-				}
+			else if (!(this instanceof Water)) {
+				this.ant = ant;
 				ant.setPlace(this);
 			}
 			else {
-				System.out.println("Already an ant in " + this); // report error
+				System.out.println("Ant is not allowed in " + this); // report error
+			}
+		}
+		else if (this.ant instanceof Containing) {
+			if (!((Containing) this.ant).addContenantInsect(ant)) {
+				((Containing) this.ant).removeContenantInsect();
+				System.out.println("Ant is not allowed in " + this); // report error
+			}
+			else {
+				ant.setPlace(this);
+			}
+		}
+		else if (ant instanceof Containing) {
+			if (!((Containing) ant).addContenantInsect(this.ant)) {
+				((Containing) ant).removeContenantInsect();
+				System.out.println("Ant is not allowed in " + this); // report error
+			}
+			else {
+				this.ant = ant;
+				ant.setPlace(this);
 			}
 		}
 		else {
-			if (this.ant == null) {
-				this.ant = ant;
-				ant.setPlace(this);
-			}
-			else if (this.ant instanceof Containing){
-				if (!((Containing) this.ant).addContenantInsect(ant)) {
-					System.out.println("Already an ant in " + this); // report error
-				}
-				this.ant.setPlace(this);
-			}
-			else if (ant instanceof Containing) {
-				if(!((Containing) ant).addContenantInsect(this.ant)) {
-					System.out.println("Already an ant in " + this); // report error
-				}
-				ant.setPlace(this);
-			}
-			else {
-				System.out.println("Already an ant in " + this); // report error
-			}
+			System.out.println("Already an ant in " + this); // report error
 		}
 	}
+
 
 	/**
 	 * Adds a bee to the place
@@ -189,6 +183,7 @@ public class Place {
 		if (this.ant == ant && this.ant instanceof Containing) {
 			this.ant = ((Containing) this.ant).getContenantInsect();
 			ant.setPlace(null);
+			this.ant.setPlace(this);
 		}
 		else if (this.ant instanceof Containing && ((Containing) this.ant).getContenantInsect() == ant) {
 			((Containing) this.ant).removeContenantInsect();

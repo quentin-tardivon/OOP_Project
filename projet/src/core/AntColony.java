@@ -163,7 +163,7 @@ public class AntColony {
 		ArrayList<Ant> ants = new ArrayList<Ant>();
 		for (Place p : places) {
 			if (p.getAnt() != null) {
-				if (p.getAnt() instanceof Containing) {
+				if (p.getAnt() instanceof Containing && ((Containing) p.getAnt()).getContenantInsect() !=null) {
 					ants.add(((Containing) p.getAnt()).getContenantInsect());
 				}
 				ants.add(p.getAnt());
