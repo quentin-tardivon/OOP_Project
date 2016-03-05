@@ -11,7 +11,7 @@ import core.Place;
  */
 public class FireAnt extends Ant {
 
-    protected int damage;
+
 
     /**
      * Create a FireAnt

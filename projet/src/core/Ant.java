@@ -5,10 +5,11 @@ package core;
  *
  * @author YOUR NAME HERE
  */
-public abstract class Ant extends Insect {
+public abstract class Ant extends Insect implements Damaging{
 
 	protected int foodCost; // the amount of food needed to make this ant
 	protected boolean hidden = false;
+	protected int damage;
 
 	/**
 	 * Creates a new Ant, with a food cost of 0.
@@ -24,6 +25,12 @@ public abstract class Ant extends Insect {
 	public Ant (int armor, int foodCost) {
 		super(armor, null);
 		this.foodCost = foodCost;
+	}
+
+	public Ant(int armor, int foodCost, int damage) {
+		super(armor,null);
+		this.foodCost = foodCost;
+		this.damage = damage;
 	}
 
 
@@ -42,5 +49,13 @@ public abstract class Ant extends Insect {
 	//@Override
 	public void leavePlace () {
 		place.removeInsect(this);
+	}
+
+	public int getDamage() {
+		return this.damage;
+	}
+
+	public void setDamage(int newDamage) {
+		this.damage = newDamage;
 	}
 }

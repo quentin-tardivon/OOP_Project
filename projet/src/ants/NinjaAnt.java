@@ -10,7 +10,6 @@ import core.Place;
  */
 public class NinjaAnt extends Ant {
 
-    protected int damage;
 
     public NinjaAnt() {
         super(1,6);

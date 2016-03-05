@@ -11,7 +11,7 @@ import core.Bee;
  */
 public class ThrowerAnt extends Ant {
 
-	protected int damage;
+
 
 	/**
 	 * Creates a new Thrower Ant.
