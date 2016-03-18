@@ -11,43 +11,44 @@ import java.util.ArrayList;
  */
 public class QueenAnt extends ScubaThrowerAnt {
 
-    private ArrayList<Ant> antUp = new ArrayList<>();
+    private static final QueenAnt INSTANCE = new QueenAnt();
 
+    public static QueenAnt getInstance() {
+        return INSTANCE;
+    }
     public QueenAnt() {
         super(1,6);
-
     }
+
+
+    private ArrayList<Ant> antUp = new ArrayList<>();
+
 
     @Override
     public void action(AntColony colony) {
-        if (colony.getQueenCount()>1) {
-            this.reduceArmor(this.getArmor());
-        }
-        else {
-            colony.setQueenCount();
-            super.action(colony);
-            QueenPlace newPlace = new QueenPlace("AntQueen", this.getPlace());
-            colony.setQueenPlace(newPlace);
-            if (this.place.getEntrance() != null) {
-                Ant antEn = this.place.getEntrance().getAnt();
-                if (!antUp.contains(antEn) && antEn != null) {
-                    antUp.add(antEn);
-                    antEn.setDamage(antEn.getDamage()*2);
-                    System.out.println(antEn.getDamage());
-                }
-            }
-            if (this.place.getExit() != null) {
-                Ant antEx = this.place.getExit().getAnt();
-                if (!antUp.contains(antEx) && antEx != null) {
-                    antUp.add(antEx);
-                    antEx.setDamage(antEx.getDamage() * 2);
-                    System.out.println(antEx.getDamage());
-                }
+        super.action(colony);
+        QueenPlace newPlace = new QueenPlace("AntQueen", this.getPlace());
+        colony.setQueenPlace(newPlace);
+        if (this.place.getEntrance() != null) {
+            Ant antEn = this.place.getEntrance().getAnt();
+            if (!antUp.contains(antEn) && antEn != null) {
+                antUp.add(antEn);
+                antEn.setDamage(antEn.getDamage() * 2);
+                System.out.println(antEn.getDamage());
             }
         }
-
-
-
+        if (this.place.getExit() != null) {
+            Ant antEx = this.place.getExit().getAnt();
+            if (!antUp.contains(antEx) && antEx != null) {
+                antUp.add(antEx);
+                antEx.setDamage(antEx.getDamage() * 2);
+                System.out.println(antEx.getDamage());
+            }
+        }
     }
+
+
+
+
 
 }

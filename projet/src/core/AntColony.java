@@ -203,7 +203,7 @@ public class AntColony {
 	}
 
 	public void setQueenCount() {
-		this.queenCount +=1;
+		this.queenCount =1;
 	}
 
 	@Override
