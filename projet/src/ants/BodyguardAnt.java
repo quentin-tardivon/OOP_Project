@@ -16,9 +16,6 @@ public class BodyguardAnt extends Ant implements Containing  {
     }
 
     public void action(AntColony colony) {
-        if (contain != null) {
-            contain.action(colony);
-        }
     }
 
 

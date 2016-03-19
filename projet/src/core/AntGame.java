@@ -29,6 +29,7 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.Timer;
 
+import ants.QueenAnt;
 import ants.ThrowerAnt;
 
 /**
@@ -567,6 +568,7 @@ public class AntGame extends JPanel implements ActionListener, MouseListener {
 			Class antClass = Class.forName(antType); // what class is this type
 			Constructor constructor = antClass.getConstructor(); // find the default constructor (using reflection)
 			ant = (Ant) constructor.newInstance(); // call the default constructor to make a new ant
+
 		}
 		catch (Exception e) {
 		}

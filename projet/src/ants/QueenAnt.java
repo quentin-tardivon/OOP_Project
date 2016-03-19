@@ -1,23 +1,19 @@
 package ants;
 
-import core.Ant;
-import core.AntColony;
-import core.QueenPlace;
+import core.*;
 
 import java.util.ArrayList;
 
 /**
  * Created by quentin on 05/03/16.
  */
-public class QueenAnt extends ScubaThrowerAnt {
+public class QueenAnt extends ScubaThrowerAnt{
 
-    private static final QueenAnt INSTANCE = new QueenAnt();
 
-    public static QueenAnt getInstance() {
-        return INSTANCE;
-    }
+
     public QueenAnt() {
         super(1,6);
+        setRemovable(false);
     }
 
 

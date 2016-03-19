@@ -181,9 +181,14 @@ public class Place {
 	 */
 	public void removeInsect (Ant ant) {
 		if (this.ant == ant && this.ant instanceof Containing) {
-			this.ant = ((Containing) this.ant).getContenantInsect();
-			ant.setPlace(null);
-			this.ant.setPlace(this);
+			try {
+				this.ant = ((Containing) this.ant).getContenantInsect();
+				ant.setPlace(null);
+				this.ant.setPlace(this);
+			}
+			catch (NullPointerException exception) {
+				ant.setPlace(null);
+			}
 		}
 		else if (this.ant instanceof Containing && ((Containing) this.ant).getContenantInsect() == ant) {
 			((Containing) this.ant).removeContenantInsect();

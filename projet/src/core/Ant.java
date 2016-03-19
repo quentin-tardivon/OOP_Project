@@ -5,11 +5,15 @@ package core;
  *
  * @author YOUR NAME HERE
  */
-public abstract class Ant extends Insect implements Damaging{
+public abstract class Ant extends Insect implements Damaging, Removable{
+
+
 
 	protected int foodCost; // the amount of food needed to make this ant
 	protected boolean hidden = false;
 	protected int damage;
+	protected boolean isRemovable = true;
+
 
 	/**
 	 * Creates a new Ant, with a food cost of 0.
@@ -57,5 +61,13 @@ public abstract class Ant extends Insect implements Damaging{
 
 	public void setDamage(int newDamage) {
 		this.damage = newDamage;
+	}
+
+	public boolean isRemovable() {
+		return this.isRemovable;
+	}
+
+	public void setRemovable(boolean removable) {
+		this.isRemovable = removable;
 	}
 }

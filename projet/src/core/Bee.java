@@ -7,6 +7,10 @@ package core;
  */
 public class Bee extends Insect {
 
+	private boolean slow = false;
+	private boolean stun = false;
+	private int countSlow = 0;
+
 	private static final int DAMAGE = 1;
 
 	/**
@@ -21,7 +25,7 @@ public class Bee extends Insect {
 	}
 
 	/**
-	 * Deals damage to the given ant
+	 * Deals damage to the givefalsen ant
 	 *
 	 * @param ant
 	 *            The ant to sting
@@ -60,17 +64,49 @@ public class Bee extends Insect {
 		}
 	}
 
+	public boolean isSlow() {
+		return slow;
+	}
+
+	public void setSlow(boolean slow) {
+		this.slow = slow;
+	}
+
+	public boolean isStun() {
+		return stun;
+	}
+
+	public void setStun(boolean stun) {
+		this.stun = stun;
+	}
+
 	/**
 	 * A bee's action is to sting the Ant that blocks its exit if it is blocked,
 	 * otherwise it moves to the exit of its current place.
 	 */
 	@Override
 	public void action (AntColony colony) {
-		if (isBlocked()) {
-			sting(place.getAnt());
+		if (this.isStun()) {
+			stun = false;
 		}
-		else if (armor > 0) {
-			moveTo(place.getExit());
+		else {
+			if (this.isSlow() && countSlow >=2) {
+				setSlow(false);
+				countSlow = 0;
+			}
+			else if (isSlow()) {
+				countSlow+=1;
+			}
+			else {
+				if (isBlocked()) {
+					sting(place.getAnt());
+				}
+				else if (armor > 0) {
+					moveTo(place.getExit());
+				}
+			}
+
 		}
+
 	}
 }

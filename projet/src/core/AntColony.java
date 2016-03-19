@@ -1,5 +1,7 @@
 package core;
 
+import ants.QueenAnt;
+
 import java.util.ArrayList;
 
 /**
@@ -140,12 +142,24 @@ public class AntColony {
 	 *            The ant to place
 	 */
 	public void deployAnt (Place place, Ant ant) {
-		if (food >= ant.getFoodCost()) {
-			food -= ant.getFoodCost();
-			place.addInsect(ant);
+		if (ant instanceof QueenAnt) {
+			if (food >= ant.getFoodCost() && queenCount<1) {
+				food -= ant.getFoodCost();
+				place.addInsect(ant);
+				queenCount+=1;
+			}
+			else {
+				System.out.println("Not enough food remains to place or already a queen " + ant);
+			}
 		}
 		else {
-			System.out.println("Not enough food remains to place " + ant);
+			if (food >= ant.getFoodCost()) {
+				food -= ant.getFoodCost();
+				place.addInsect(ant);
+			}
+			else {
+				System.out.println("Not enough food remains to place " + ant);
+			}
 		}
 	}
 
@@ -157,7 +171,12 @@ public class AntColony {
 	 */
 	public void removeAnt (Place place) {
 		if (place.getAnt() != null) {
-			place.removeInsect(place.getAnt());
+			if (place.getAnt().isRemovable()) {
+				place.removeInsect(place.getAnt());
+			}
+			else {
+				System.out.println("This insect is not removable");
+			}
 		}
 	}
 
