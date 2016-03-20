@@ -1,7 +1,7 @@
 package core;
 
 /**
- * Created by quentin on 26/02/16.
+ * @author Quentin TARDIVON, Maxime ESCAMEZ
  */
 public class Water extends Place {
 

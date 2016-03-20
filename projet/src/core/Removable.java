@@ -1,7 +1,7 @@
 package core;
 
 /**
- * Created by quentin on 18/03/16.
+ * @author Quentin TARDIVON, Maxime ESCAMEZ
  */
 public interface Removable {
 

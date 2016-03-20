@@ -6,7 +6,7 @@ import core.AntColony;
 /**
  * An ant that protect the colony
  *
- * @author Quentin TARDIVON
+ * @author Quentin TARDIVON, Maxime ESCAMEZ
  */
 public class WallAnt extends Ant {
     /**

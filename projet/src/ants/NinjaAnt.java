@@ -6,7 +6,7 @@ import core.Bee;
 import core.Place;
 
 /**
- * Created by quentin on 26/02/16.
+ * @author Quentin TARDIVON, Maxime ESCAMEZ
  */
 public class NinjaAnt extends Ant {
 

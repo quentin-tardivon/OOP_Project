@@ -86,6 +86,8 @@ public abstract class Insect {
 	public void reduceArmor (int amount) {
 		armor -= amount;
 		if (armor <= 0) {
+			Thread playWave=new AePlayWave("sound/wilhelm.wav");
+			playWave.start();
 			System.out.println(this + " ran out of armor and expired");
 			leavePlace();
 		}

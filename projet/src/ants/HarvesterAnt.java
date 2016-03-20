@@ -6,7 +6,7 @@ import core.AntColony;
 /**
  * An Ant that harvests food
  *
- * @author YOUR NAME HERE
+ * @author Quentin TARDIVON, Maxime ESCAMEZ
  */
 public class HarvesterAnt extends Ant {
 

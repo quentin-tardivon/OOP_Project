@@ -8,7 +8,7 @@ import core.Bee;
 /**
  * An ant who throws leaves at bees
  *
- * @author YOUR NAME HERE
+ *@author Quentin TARDIVON, Maxime ESCAMEZ
  */
 public class ThrowerAnt extends Ant {
 

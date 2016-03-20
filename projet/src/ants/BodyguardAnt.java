@@ -5,7 +5,7 @@ import core.AntColony;
 import core.Containing;
 
 /**
- * Created by quentin on 01/03/16.
+ * @author Quentin TARDIVON, Maxime ESCAMEZ
  */
 public class BodyguardAnt extends Ant implements Containing  {
 

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by quentin on 05/03/16.
+ * @author Quentin TARDIVON, Maxime ESCAMEZ
  */
 public class QueenPlace extends Place {
 

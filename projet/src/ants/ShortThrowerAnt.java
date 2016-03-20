@@ -3,7 +3,7 @@ package ants;
 import core.Bee;
 
 /**
- * Created by quentin on 05/03/16.
+ *@author Quentin TARDIVON, Maxime ESCAMEZ
  */
 public class ShortThrowerAnt extends ThrowerAnt {
 

@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 /**
  * An Ant that eat a random bee
- * @author Quentin TARDIVON
+ * @author Quentin TARDIVON, Maxime ESCAMEZ
  */
 public class HungryAnt extends Ant {
 

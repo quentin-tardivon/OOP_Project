@@ -219,7 +219,7 @@ public class Place {
 		}
 	}
 
-	@Override
+	//@Override
 	public String toString () {
 		return name;
 	}

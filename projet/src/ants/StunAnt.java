@@ -4,7 +4,7 @@ import core.AntColony;
 import core.Bee;
 
 /**
- * Created by quentin on 18/03/16.
+ * @author Quentin TARDIVON, Maxime ESCAMEZ
  */
 public class StunAnt extends ThrowerAnt{
 

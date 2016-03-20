@@ -7,7 +7,7 @@ import core.Place;
 
 /**
  * A Ant that fire the colony when whe die
- * @author Quentin TARDIVON
+ * @author Quentin TARDIVON, Maxime ESCAMEZ
  */
 public class FireAnt extends Ant {
 
