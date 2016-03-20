@@ -255,10 +255,14 @@ public class AntGame extends JPanel implements ActionListener, MouseListener {
 		{
 			// check for end condition before proceeding
 			if (colony.queenHasBees()) { // we lost!
+				Thread playWave=new AePlayWave("sound/defeat.wav");
+				playWave.start();
 				JOptionPane.showMessageDialog(this, "The ant queen has perished! Please try again.", "Bzzzzz!", JOptionPane.PLAIN_MESSAGE);
 				System.exit(0); // quit
 			}
 			if (hive.getBees().length + colony.getAllBees().size() == 0) { // no more bees--we won!
+				Thread playWave=new AePlayWave("sound/victory.wav");
+				playWave.start();
 				JOptionPane.showMessageDialog(this, "All bees are vanquished. You win!", "Yaaaay!", JOptionPane.PLAIN_MESSAGE);
 				System.exit(0); // quit
 			}
