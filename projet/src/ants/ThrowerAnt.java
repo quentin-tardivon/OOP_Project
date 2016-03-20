@@ -1,5 +1,6 @@
 package ants;
 
+import core.AePlayWave;
 import core.Ant;
 import core.AntColony;
 import core.Bee;
@@ -42,6 +43,8 @@ public class ThrowerAnt extends Ant {
 		Bee target = getTarget();
 		if (target != null) {
 			target.reduceArmor(damage);
+			Thread playWave=new AePlayWave("sound/shoot.wav");
+			playWave.start();
 		}
 	}
 }

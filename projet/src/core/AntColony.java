@@ -124,7 +124,12 @@ public class AntColony {
 	 */
 	public boolean queenHasBees () {
 		try {
-			return queenPlace.getEffectiveQueen().getBees().length > 0;
+			if (queenPlace.getEffectiveQueen().getBees().length > 0 || queenPlace.getBees().length >0) {
+				return true;
+			}
+			else {
+				return false;
+			}
 		}
 		catch (NullPointerException exception) {
 			return queenPlace.getBees().length >0;
