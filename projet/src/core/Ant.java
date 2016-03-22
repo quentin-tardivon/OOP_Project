@@ -3,17 +3,14 @@ package core;
 /**
  * A class representing a basic Ant
  *
- * @author YOUR NAME HERE
+ * @author Quentin TARDIVON, Maxime ESCAMEZ
  */
 public abstract class Ant extends Insect implements Damaging, Removable{
-
-
 
 	protected int foodCost; // the amount of food needed to make this ant
 	protected boolean hidden = false;
 	protected int damage;
 	protected boolean isRemovable = true;
-
 
 	/**
 	 * Creates a new Ant, with a food cost of 0.
@@ -50,23 +47,38 @@ public abstract class Ant extends Insect implements Damaging, Removable{
 	/**
 	 * Removes the ant from its current place
 	 */
-	//@Override
 	public void leavePlace () {
 		place.removeInsect(this);
 	}
 
+	/**
+	 *
+	 * @return damage of the ant
+     */
 	public int getDamage() {
 		return this.damage;
 	}
 
+	/**
+	 * Change ant's damage
+	 * @param newDamage
+     */
 	public void setDamage(int newDamage) {
 		this.damage = newDamage;
 	}
 
+	/**
+	 *
+	 * @return if an ant is removable or not
+     */
 	public boolean isRemovable() {
 		return this.isRemovable;
 	}
 
+	/**
+	 * set the removability of an ant
+	 * @param removable
+     */
 	public void setRemovable(boolean removable) {
 		this.isRemovable = removable;
 	}

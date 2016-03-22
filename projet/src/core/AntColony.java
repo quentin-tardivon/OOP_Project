@@ -218,16 +218,12 @@ public class AntColony {
 		return bees;
 	}
 
+	/**
+	 * Initialize the Queen Place
+	 * @param place
+     */
 	public void setQueenPlace(QueenPlace place) {
 		this.queenPlace = place;
-	}
-
-	public int getQueenCount() {
-		return queenCount;
-	}
-
-	public void setQueenCount() {
-		this.queenCount =1;
 	}
 
 	@Override

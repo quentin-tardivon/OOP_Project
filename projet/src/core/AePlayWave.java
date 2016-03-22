@@ -13,7 +13,7 @@ import javax.sound.sampled.UnsupportedAudioFileException;
 
 /**
  * Jouer un son au format wav
- * @author ???
+ * @author http://www.fobec.com/java/1043/jouer-son-musique-format-wav.html
  * Source sur le web
  */
 public class AePlayWave extends Thread {

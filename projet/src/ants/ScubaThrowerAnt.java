@@ -2,12 +2,15 @@ package ants;
 
 
 /**
+ * An ant that can swim
+ *
  * @author Quentin TARDIVON, Maxime ESCAMEZ
  */
 public class ScubaThrowerAnt extends ThrowerAnt {
 
-
-
+    /**
+     * Create a new ScubaAnt
+     */
     public ScubaThrowerAnt() {
         super(1,5);
         damage = 1;

@@ -3,7 +3,7 @@ package core;
 /**
  * Represents a Bee
  *
- * @author YOUR NAME HERE
+ * @author Quentin TARDIVON, Maxime ESCAMEZ
  */
 public class Bee extends Insect {
 
@@ -45,6 +45,9 @@ public class Bee extends Insect {
 		place.addInsect(this);
 	}
 
+	/**
+	 * Remove an insect
+	 */
 	@Override
 	public void leavePlace () {
 		place.removeInsect(this);
@@ -64,18 +67,34 @@ public class Bee extends Insect {
 		}
 	}
 
+	/**
+	 * Return the state of the bee
+	 * @return
+     */
 	public boolean isSlow() {
 		return slow;
 	}
 
+	/**
+	 * Set the state of the bee
+	 * @param slow
+     */
 	public void setSlow(boolean slow) {
 		this.slow = slow;
 	}
 
+	/**
+	 * Return the state of the bee
+	 * @return
+     */
 	public boolean isStun() {
 		return stun;
 	}
 
+	/**
+	 * Set the state of the bee
+	 * @param stun
+     */
 	public void setStun(boolean stun) {
 		this.stun = stun;
 	}

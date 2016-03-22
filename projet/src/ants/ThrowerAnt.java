@@ -24,6 +24,11 @@ public class ThrowerAnt extends Ant {
 
 	}
 
+	/**
+	 * Create a new ThrowerAnt
+	 * @param armor
+	 * @param foodCost
+     */
 	public ThrowerAnt(int armor, int foodCost) {
 		super(armor,foodCost);
 		damage = 1;
@@ -38,6 +43,10 @@ public class ThrowerAnt extends Ant {
 		return place.getClosestBee(0, 3);
 	}
 
+	/**
+	 * Shoot near bees
+	 * @param colony
+     */
 	@Override
 	public void action (AntColony colony) {
 		Bee target = getTarget();

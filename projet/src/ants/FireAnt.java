@@ -6,7 +6,8 @@ import core.Bee;
 import core.Place;
 
 /**
- * A Ant that fire the colony when whe die
+ * A Ant that fire the colony when she dies
+ *
  * @author Quentin TARDIVON, Maxime ESCAMEZ
  */
 public class FireAnt extends Ant {
@@ -27,7 +28,10 @@ public class FireAnt extends Ant {
         //Nothing
     }
 
-
+    /**
+     * the explosion of a fireant
+     * @param amount valeur des dommages
+     */
     @Override
     public void reduceArmor(int amount) {
         Place antPlace = this.getPlace();

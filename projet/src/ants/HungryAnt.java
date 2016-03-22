@@ -9,6 +9,7 @@ import java.util.ArrayList;
 
 /**
  * An Ant that eat a random bee
+ *
  * @author Quentin TARDIVON, Maxime ESCAMEZ
  */
 public class HungryAnt extends Ant {
@@ -33,6 +34,10 @@ public class HungryAnt extends Ant {
         return place.getClosestBee(0, 0);
     }
 
+    /**
+     * Launch a leaf on a bee
+     * @param colony
+     */
     @Override
     public void action (AntColony colony) {
         Bee target = getTarget();

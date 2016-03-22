@@ -1,6 +1,8 @@
 package core;
 
 /**
+ * damage's interface
+ *
  * @author Quentin TARDIVON, Maxime ESCAMEZ
  */
 public interface Damaging {
@@ -9,13 +11,13 @@ public interface Damaging {
      * Donne la valeur des Damage
      *
      */
-    public int getDamage();
+    int getDamage();
 
 
     /**
      * Change la valeur des Damage
      *
      */
-    public void setDamage(int damage);
+    void setDamage(int damage);
 
 }

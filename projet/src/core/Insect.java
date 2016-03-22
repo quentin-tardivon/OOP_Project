@@ -111,6 +111,10 @@ public abstract class Insect {
 		return this.getClass().getName() + "[" + armor + ", " + place + "]"; // supports inheritance!
 	}
 
+	/**
+	 * Return if the insect is watersafe
+	 * @return
+     */
 	public boolean getWatersafe () {
 		return this.watersafe;
 	}

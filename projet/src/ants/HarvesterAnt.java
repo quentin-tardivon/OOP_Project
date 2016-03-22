@@ -18,6 +18,10 @@ public class HarvesterAnt extends Ant {
 
 	}
 
+	/**
+	 * Increase the food of the colony
+	 * @param colony
+     */
 	@Override
 	public void action (AntColony colony) {
 		colony.increaseFood(1);

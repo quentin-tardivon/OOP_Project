@@ -5,21 +5,27 @@ import core.*;
 import java.util.ArrayList;
 
 /**
+ * THE Queen Ant
+ *
  * @author Quentin TARDIVON, Maxime ESCAMEZ
  */
 public class QueenAnt extends ScubaThrowerAnt{
 
+    private ArrayList<Ant> antUp = new ArrayList<>(); //THe list of ants that gets a boost
 
-
+    /**
+     * Create a new QueenAnt
+     */
     public QueenAnt() {
         super(1,6);
         setRemovable(false);
     }
 
 
-    private ArrayList<Ant> antUp = new ArrayList<>();
-
-
+    /**
+     * Boost the ants next to her and throws leaves
+     * @param colony
+     */
     @Override
     public void action(AntColony colony) {
         super.action(colony);
