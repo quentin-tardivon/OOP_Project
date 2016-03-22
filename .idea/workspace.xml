@@ -1,49 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="593c6576-f1e1-4b39-a37e-222711e7cfca" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projet/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projet/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projet/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projet/antlist.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projet/projet.eml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projet/projet.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projet/src/ants/BodyguardAnt.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projet/src/ants/FireAnt.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projet/src/ants/HarvesterAnt.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projet/src/ants/HungryAnt.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projet/src/ants/LongThrowerAnt.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projet/src/ants/NinjaAnt.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projet/src/ants/QueenAnt.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projet/src/ants/ScubaThrowerAnt.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projet/src/ants/ShortThrowerAnt.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projet/src/ants/SlowAnt.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projet/src/ants/StunAnt.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projet/src/ants/ThrowerAnt.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projet/src/ants/WallAnt.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projet/src/core/AePlayWave.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projet/src/core/Ant.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projet/src/core/AntColony.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projet/src/core/AntGame.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projet/src/core/AntsVsSomeBees.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projet/src/core/Bee.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projet/src/core/Containing.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projet/src/core/Damaging.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projet/src/core/Hive.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projet/src/core/Insect.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projet/src/core/Place.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projet/src/core/QueenPlace.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projet/src/core/Removable.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projet/src/core/Water.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ants_Bees.iml" afterPath="$PROJECT_DIR$/Ants_Bees.iml" />
-    </list>
+    <list default="true" id="593c6576-f1e1-4b39-a37e-222711e7cfca" name="Default" comment="" />
     <ignored path="Ants_Bees.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -636,18 +594,21 @@
     </option>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="593c6576-f1e1-4b39-a37e-222711e7cfca" name="Default" comment="" />
       <created>1458666160334</created>
       <option name="number" value="Default" />
       <updated>1458666160334</updated>
-      <workItem from="1458666161614" duration="127000" />
+      <workItem from="1458666161614" duration="226000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127000" />
+    <option name="totallyTimeSpent" value="226000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
@@ -660,7 +621,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -677,6 +638,14 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
